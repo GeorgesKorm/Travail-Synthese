@@ -48,7 +48,7 @@ body {
 h1, h2, h3, h4{
     margin-top: 1%;
     text-align: center;
-    font-family:Unbounded; 
+    font-family:Unbounded !important; 
 }
 
 
@@ -72,4 +72,10 @@ ul {
     margin-left: 45%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.élargirTexte{
+    margin-top: 2%;
+    font-size: 1.2em;
+    text-align: center;
 }
