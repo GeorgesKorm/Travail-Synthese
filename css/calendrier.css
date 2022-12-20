@@ -61,7 +61,7 @@
     
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1050px) {
     .month{
         width: 100%;
     }
@@ -69,3 +69,4 @@
         margin-right: 15%;
     }
 }
+/* 600 */
