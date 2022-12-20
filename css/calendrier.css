@@ -1,0 +1,56 @@
+
+.title {
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 8px;
+}
+
+.month {
+    /*Maybe make this a flex so they don't come out of the box? */
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 24%;
+    height: 200px;
+    display:flexbox;
+    flex-wrap:wrap;
+    color: #f5d5e0;
+    background-color: #210535;
+
+}
+
+.monthTitle{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.daysOfWeek {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size: small;
+}
+
+.daysContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.holiday{
+    color: violet;
+}
+
+.evenementStarset{
+    color: aqua;
+}
+
