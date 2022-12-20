@@ -1,4 +1,3 @@
-
 .title {
     color: black;
     font-size: 2.5em;
@@ -15,13 +14,10 @@
 }
 
 .month {
-    /*Maybe make this a flex so they don't come out of the box? */
     border: 1px solid black;
     border-radius: 5%;
     width: 24%;
     height: 200px;
-    display:flexbox;
-    flex-wrap:wrap;
     color: #f5d5e0;
     background-color: #210535;
 
@@ -54,3 +50,22 @@
     color: aqua;
 }
 
+
+@media screen and (max-width:800px) {
+    .month {
+        width: 40%;
+    }
+    .months{
+        margin-left: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .month{
+        width: 100%;
+    }
+    .months{
+        margin-right: 15%;
+    }
+}
