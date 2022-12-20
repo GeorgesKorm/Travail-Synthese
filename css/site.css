@@ -79,3 +79,19 @@ ul {
     font-size: 1.2em;
     text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+    .content img {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content img {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
